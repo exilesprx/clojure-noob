@@ -4,9 +4,15 @@
             [clojure-noob.euler :refer :all]))
 
 (deftest euler
-  (testing
+  (testing "The sum of all multiple of 3 and 5 below 10 should equal 23"
     (is
       (= 23 (problem-one 10))
+      )
+    )
+
+  (testing "The sum of all even fibonacci numbers below 10 should equal 10"
+    (is
+      (= 10 (problem-two 10))
       )
     )
   )

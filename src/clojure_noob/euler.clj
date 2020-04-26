@@ -20,3 +20,9 @@
       sum)
     )
   )
+
+(defn problem-two
+  "Finds the sum of all even fibonacci numbers below the limit."
+  [lim]
+  1
+  )
