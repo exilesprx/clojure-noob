@@ -7,8 +7,7 @@
   (set
     (for [x vec]
       (let [res (func x)]
-        res
+        res)
       )
     )
   )
-)
