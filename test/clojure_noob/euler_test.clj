@@ -15,4 +15,9 @@
       (= 10 (problem-two 10))
       )
     )
+
+  (testing "The largest prime factor of 13,195 is 29.")
+    (is
+      (= 29 (problem-three 13195))
+      )
   )

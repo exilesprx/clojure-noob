@@ -41,3 +41,9 @@
       )
     )
   )
+
+  (defn problem-three
+    "Finds the largest prime factor of the number given."
+    [number]
+    1
+    )
