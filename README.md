@@ -8,10 +8,23 @@ This is a project to learn the Clojure language.
 Download from https://github.com/exilesprx/clojure-noob/archive/master.zip.
 
 ## Usage
+TBD
 
-The application doesn't do anything right now.
+## About
 
-    $ lein run
+#### Euler project
+
+![Euler project - status](https://projecteuler.net/profile/exilesprx.png)
+
+This website provides free problems to solve which I'm using to learn Clojure.
+
+https://projecteuler.net/
+
+#### Clojure for the brave and true
+
+This is another site I'm using to learn Clojure.
+
+https://www.braveclojure.com/
 
 ## License
 
