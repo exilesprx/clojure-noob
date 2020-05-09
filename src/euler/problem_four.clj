@@ -7,10 +7,10 @@
   )
 
 (defn find-largest-palindrome
-  "Finds the largest palindrome start at num."
-  [num]
-  (let [palindromes (for [x (range 999 100 -1)
-        y (range 999 100 -1)
+  "Finds the largest palindrome from a product of two n-digit numbers."
+  [n]
+  (let [palindromes (for [x (range (int (dec (Math/pow 10 n))) (int (Math/pow 10 (dec n))) -1)
+        y (range (int (dec (Math/pow 10 n))) (int (Math/pow 10 (dec n))) -1)
         :let [res (* x y)]
         :when (is-palindrome? res)]
     res)]
