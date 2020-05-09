@@ -1,4 +1,4 @@
-(ns euler.problem-five
+(ns euler.problem-5.main
   [:gen-class])
 
 (defn find-smallest-number
