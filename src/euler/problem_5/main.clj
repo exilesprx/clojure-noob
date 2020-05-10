@@ -15,7 +15,7 @@
   (loop [y 1
         ans 1]
     (if (<= y n)
-      (recur (inc y) (/ (* ans y) (gcd ans y)))
+      (recur (inc y) (* (/ ans (gcd ans y)) y))
       ans
       )
     )
