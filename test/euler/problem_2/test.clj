@@ -1,6 +1,6 @@
-(ns euler.problem-two-test
+(ns euler.problem-2.test
   (:require [clojure.test :refer :all]
-            [euler.problem-two :refer :all]))
+            [euler.problem-2.main :refer :all]))
 
 (deftest test-problem-two
 

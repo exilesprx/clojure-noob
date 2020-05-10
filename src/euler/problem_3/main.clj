@@ -1,4 +1,4 @@
-(ns euler.problem-three
+(ns euler.problem-3.main
   (:gen-class))
 
 (defn is-prime?

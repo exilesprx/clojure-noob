@@ -1,4 +1,4 @@
-(ns euler.problem-four
+(ns euler.problem-4.main
   (:gen-class))
 
 (defn is-palindrome?

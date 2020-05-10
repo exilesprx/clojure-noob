@@ -1,6 +1,6 @@
-(ns euler.problem-four-test
+(ns euler.problem-4.test
   (:require [clojure.test :refer :all]
-            [euler.problem-four :refer :all]))
+            [euler.problem-4.main :refer :all]))
 
 (deftest problem-four-test
   (testing "Determines a number is a palindrome"

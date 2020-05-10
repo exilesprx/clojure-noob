@@ -1,4 +1,4 @@
-(ns euler.problem-one
+(ns euler.problem-1.main
   (:gen-class))
 
 (defn find-sum
