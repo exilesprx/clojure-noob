@@ -6,7 +6,5 @@
   [func vec]
   (set
     ; Excute a function on the value on each value in the vector
-    (for [x vec]
-      (func x))
-    )
-  )
+   (for [x vec]
+     (func x))))

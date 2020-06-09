@@ -5,7 +5,4 @@
 (deftest test-problem-one
   (testing "The sum of all multiple of 3 and 5 below 10 should equal 23"
     (is
-      (= 23 (find-sum 10))
-      )
-    )
-  )
+     (= 23 (find-sum 10)))))

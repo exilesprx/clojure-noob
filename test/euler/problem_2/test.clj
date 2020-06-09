@@ -6,7 +6,4 @@
 
   (testing "The sum of all even fibonacci numbers below 10 should equal 10"
     (is
-      (= 10 (find-sum 10))
-      )
-    )
-  )
+     (= 10 (find-sum 10)))))

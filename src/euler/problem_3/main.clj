@@ -11,19 +11,14 @@
           true
           (if (= 0 (mod n i))
             false
-            (recur (+ i 2)))
-          )
-        )
-      )
-    )
-  )
+            (recur (+ i 2))))))))
 
 (defn prime-factorization-tree
   "Finds the prime factorization tree of the given number."
   [n]
   (loop [x 2
-    y n
-    res []]
+         y n
+         res []]
     ; If the factors equal the number passed, the tree is complete
     (if (= (reduce * res) n)
       res
@@ -32,15 +27,9 @@
         ; restart the process with x+1
         (if (and prime (integer? next))
           (recur 2 next (conj res x))
-          (recur (inc x) y res)
-          )
-        )
-      )
-    )
-  )
+          (recur (inc x) y res))))))
 
 (defn find-largest-prime-factor
   "Finds the largest prime factor of the given number."
   [n]
-  (last (prime-factorization-tree n))
-  )
+  (last (prime-factorization-tree n)))
