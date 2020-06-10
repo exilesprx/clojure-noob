@@ -6,12 +6,13 @@
   (if (= (mod n 2) 0)
     false
     (let [root (Math/floor (int (Math/sqrt n)))]
-      (loop [i 3]
+      (loop [i 3
+             step 4]
         (if (> i root)
           true
           (if (= 0 (mod n i))
             false
-            (recur (+ i 2))))))))
+            (recur (+ i (- 6 step)) (- 6 step)))))))) ; The step between primes are either 2, 4 or 6
 
 (defn prime-factorization-tree
   "Finds the prime factorization tree of the given number."
