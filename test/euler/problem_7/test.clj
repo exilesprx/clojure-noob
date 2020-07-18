@@ -5,4 +5,8 @@
 (deftest test-problem-seven
 
   (testing "13 is the 6th prime number"
-    (is (= (find-nth-prime 6) 13))))
+    (is (= (find-nth-prime 6) 13)))
+
+  (testing "73 is the 21th prime number"
+
+    (is (= (find-nth-prime 21) 73))))
