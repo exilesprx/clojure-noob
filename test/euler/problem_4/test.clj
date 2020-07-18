@@ -9,6 +9,4 @@
     (is (false? (is-palindrome? 123))))
 
   (testing "Finds the largest palindrome from a product of two 3-digit numbers."
-    (is (= 906609 (find-largest-palindrome 3)))
-    )
-  )
+    (is (= 906609 (find-largest-palindrome 3)))))
